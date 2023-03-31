@@ -1,2 +1,2 @@
 # netflix-clone
-Netflix browse page clone. Made for a couple.
+Netflix browse page clone. Made for a lovely couple.
