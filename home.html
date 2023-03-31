@@ -1,0 +1,130 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Netflix</title>
+    <link rel="icon" href="/img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- HEADER -->
+    <header>
+      <div class="netflixLogo">
+        <a id="logo" href="#home"><img src="img/netflix_logo.png" alt="Logo Image"></a>
+      </div>      
+      <nav class="main-nav">                
+        <a href="#home">Home</a>
+        <a target="_blank" href="https://www.netflix.com/browse/genre/83">TV Shows</a>
+        <a target="_blank" href="https://www.netflix.com/browse/genre/34399">Movies</a>
+        <a target="_blank" href="https://www.netflix.com/latest">New & Popular</a>
+        <a target="_blank" href="https://www.netflix.com/browse/my-list">My List</a>
+      </nav>
+      <nav class="sub-nav">
+        <a href="#"><i class="fas fa-search sub-nav-logo"></i></a>
+        <a href="#"><i class="fas fa-bell sub-nav-logo"></i></a>
+        <a href="#">Account</a>        
+      </nav>      
+    </header>
+    <!-- END OF HEADER -->
+    
+    <!-- MAIN CONTAINER -->
+    <hr>
+    <section class="main-container" >
+      <div class="description">
+        <div id="featuredWrapper" onclick="transitionToPage('info-modal.html')">
+          <img class="featured" src="img/featured.jpg"/>
+        </div>
+      </div><!--description end-->
+      
+      <h1 id="home">Trending Now</h1>
+      <div class="box">
+        <a href="#"><img src="img/trend_1.jpeg" alt=""></a>
+        <a href="#"><img src="img/trend_2.jpeg" alt=""></a>
+        <a href="#"><img src="img/trend_3.jpeg" alt=""></a>
+        <a href="#"><img src="img/trend_4.jpeg" alt=""></a>
+        <a href="#"><img src="img/trend_5.jpeg" alt=""></a>
+        <a href="#"><img src="img/trend_6.jpeg" alt=""></a>                  
+      </div>
+      
+      <h1 id="tvShows">Comedies</h1>
+      <div class="box">
+        <a href="#"><img src="img/comedy_1.webp" alt=""></a>
+        <a href="#"><img src="img/comedy_2.jpeg" alt=""></a>
+        <a href="#"><img src="img/comedy_3.jpeg" alt=""></a>
+        <a href="#"><img src="img/comedy_4.webp" alt=""></a>
+        <a href="#"><img src="img/comedy_5.jpeg" alt=""></a>
+        <a href="#"><img src="img/comedy_6.webp" alt=""></a>
+      </div>
+      
+
+      <h1 id="movies">Award-Winning TV Shows</h1>
+      <div class="box">
+        <a href="#"><img src="img/tv_1.webp" alt=""></a>
+        <a href="#"><img src="img/tv_2.webp" alt=""></a>
+        <a href="#"><img src="img/tv_3.jpeg" alt=""></a>
+        <a href="#"><img src="img/tv_4.webp" alt=""></a>
+        <a href="#"><img src="img/tv_5.jpeg" alt=""></a>
+        <a href="#"><img src="img/tv_6.jpeg" alt=""></a>                
+      </div>
+
+      <h1 id="originals">New Releases</h1>
+      <div class="box">
+        <a href="#"><img src="img/new_1.jpeg" alt=""></a>
+        <a href="#"><img src="img/new_2.jpeg" alt=""></a>
+        <a href="#"><img src="img/new_3.jpeg" alt=""></a>
+        <a href="#"><img src="img/new_4.webp" alt=""></a>
+        <a href="#"><img src="img/new_5.jpeg" alt=""></a>
+        <a href="#"><img src="img/new_6.jpeg" alt=""></a>                
+      </div>
+
+      <h1 id="originals">Blockbuster Movies</h1>
+      <div class="box">
+        <a href="#"><img src="img/block_1.webp" alt=""></a>
+        <a href="#"><img src="img/block_2.webp" alt=""></a>
+        <a href="#"><img src="img/block_3.webp" alt=""></a>
+        <a href="#"><img src="img/block_4.webp" alt=""></a>
+        <a href="#"><img src="img/block_5.jpeg" alt=""></a>
+        <a href="#"><img src="img/block_6.webp" alt=""></a>                
+      </div>
+    
+    <!-- END OF MAIN CONTAINER -->
+
+    <!-- LINKS -->
+    <section class="link">
+        <div class="logos">
+            <a href="#"><i class="fab fa-facebook-square fa-2x logo"></i></a>
+            <a href="#"><i class="fab fa-instagram fa-2x logo"></i></a>
+            <a href="#"><i class="fab fa-twitter fa-2x logo"></i></a>
+            <a href="#"><i class="fab fa-youtube fa-2x logo"></i></a>
+        </div>
+        <div class="sub-links">
+            <ul>
+                <li><a href="#">Audio and Subtitles</a></li>
+                <li><a href="#">Audio Description</a></li>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Gift Cards</a></li>
+                <li><a href="#">Media Center</a></li>
+                <li><a href="#">Investor Relations</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Legal Notices</a></li>
+                <li><a href="#">Corporate Information</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </section>
+    <!-- END OF LINKS -->
+
+        <!-- FOOTER -->
+        <footer>
+            <p>&copy 1997-2023 Netflix, Inc.</p>
+        </footer>
+    </div>
+</body>
+</html>
